@@ -1,0 +1,58 @@
+
+body{
+	background-color: #1f1f1f;
+	font-family: "Segoe UI", Ariel, Sans-serif;
+	font-size: 90%;
+	color: #EEEEEE;
+}
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+nav ul:first-child {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	background-color: #606060;
+	list-style: none;
+	overflow: hidden;
+	
+	
+}
+ul:first-child li {
+	float: left;
+}
+
+li a {
+	font-size: 120%;
+	display: block;
+	color: orange;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #505050;
+}
+
+li a:active {
+	background-color: orange;
+}
+
+ul {
+	clear: both;
+}
+
+div {
+	-webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+img{
+	padding: 0;
+	margin-left: 0;
+}
